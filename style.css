@@ -22,7 +22,7 @@ body {
 	background-color: #fff;
 	border-radius: 8px;
 	box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
-	width: 1100px;
+	width: 70%;
 	max-width: 95vw;
 	overflow: hidden;
 }
@@ -48,12 +48,8 @@ body {
 }
 
 .image-quiz{
-	height: 220px;
-}
-
-.img-block{
 	text-align: center;
-	max-height: 220px;
+	max-height:220px;
 }
 
 .quiz-list {
@@ -66,13 +62,14 @@ body {
 .quiz-list li {
 	font-size: 1.2rem;
 	display: flex;
+	justify-content: center;
 }
 
 .quiz-list label {
 	cursor: pointer;
     display: block;
 	padding: 1rem 0.5rem;
-
+	text-align: center;
 }
 
 .quiz-list label:hover {
@@ -164,5 +161,21 @@ body {
 	40%,
 	60% {
 		transform: translate3d(4px, 0, 0);
+	}
+}
+@media only screen and (max-width: 1400px) {
+	.quiz-list {
+		flex-direction: column;
+	}
+
+}
+@media only screen and (max-width: 600px) {
+	.image-quiz{
+		max-height: 200px;
+	}
+}
+@media only screen and (max-width: 450px) {
+	.image-quiz{
+		max-height: 150px;
 	}
 }
