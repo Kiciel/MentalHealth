@@ -1,6 +1,6 @@
 const questions = [
 	{
-		question: "Какая птицу не встретишь зимой?",
+		question: "Какую птицу не встретишь зимой?",
 		answerstext: ["Ласточку", "Снегиря", "Синицу"],
 		answers: ["http://klubmama.ru/uploads/posts/2022-08/1661382477_29-klubmama-ru-p-podelka-ptitsa-lastochka-foto-31.jpg", 
 		"https://pic.rutubelist.ru/video/30/fa/30fa1c27748d7fd1cd36e4c84786850c.jpg", 

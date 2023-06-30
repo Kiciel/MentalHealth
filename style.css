@@ -49,7 +49,7 @@ body {
 
 .image-quiz{
 	text-align: center;
-	max-height:220px;
+	max-height: 250px;
 }
 
 .quiz-list {
@@ -163,7 +163,8 @@ body {
 		transform: translate3d(4px, 0, 0);
 	}
 }
-@media only screen and (max-width: 1400px) {
+
+@media only screen and (max-width: 1560px) {
 	.quiz-list {
 		flex-direction: column;
 	}
