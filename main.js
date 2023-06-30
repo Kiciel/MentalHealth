@@ -109,7 +109,7 @@ function showQuestion(){
 				<div class="img-block">
 					<input value="%number%" type="radio" class="answer" name="answer" />
 					<span>%answer%</span> <br>
-					<img src="%src%">
+					<img class="image-quiz" src="%src%">
 				</div>
 		</label>
 	</li>`;
