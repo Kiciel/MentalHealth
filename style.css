@@ -53,7 +53,7 @@ body {
 
 .img-block{
 	text-align: center;
-	height: 220px;
+	max-height: 220px;
 }
 
 .quiz-list {

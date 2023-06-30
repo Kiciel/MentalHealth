@@ -167,7 +167,7 @@ function checkAnswer(){
 function showResults(){
 	const resultsTemplste = 
 				`<h2 class="title">%title%</h2>
-				<h3 class="summary">%message%</h3>
+				<h3 class="summary">%mesage%</h3>
 				<p class="result">%result%</p>
 				`;
 	let title, message;
