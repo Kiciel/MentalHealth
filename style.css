@@ -68,7 +68,7 @@ body {
 .quiz-list label {
 	cursor: pointer;
     display: block;
-	padding: 1rem 0.5rem;
+	padding: 5px 2px;
 	text-align: center;
 }
 
@@ -179,8 +179,8 @@ body {
 	.image-quiz{
 		max-height: 120px;
 	}
-	.title{
-		font-size: 10px;
+	.title, span{
+		font-size: 14px;
 	}
 	.quiz-list label{
 		padding: 0;
