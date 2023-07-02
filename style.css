@@ -165,14 +165,14 @@ body {
 }
 
 @media only screen and (max-width: 1560px) {
-	.quiz-list {
-		flex-direction: column;
-	}
 	.image-quiz{
-		max-height: 120px;
+		max-height: 150px;
 	}
 }
 @media only screen and (max-width: 1000px) {
+	.quiz-list {
+		flex-direction: column;
+	}
 	.image-quiz{
 		max-height: 130px;
 	}
