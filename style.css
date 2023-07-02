@@ -179,8 +179,8 @@ body {
 	.image-quiz{
 		max-height: 120px;
 	}
-	.title, .img-block span{
-		font-size: 12px;
+	.title{
+		font-size: 10px;
 	}
 	.quiz-list label{
 		padding: 0;
