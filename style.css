@@ -168,15 +168,17 @@ body {
 	.quiz-list {
 		flex-direction: column;
 	}
-
-}
-@media only screen and (max-width: 600px) {
 	.image-quiz{
 		max-height: 100px;
 	}
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 1000px) {
 	.image-quiz{
 		max-height: 70px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.image-quiz{
+		max-height: 50px;
 	}
 }
