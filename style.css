@@ -169,16 +169,25 @@ body {
 		flex-direction: column;
 	}
 	.image-quiz{
-		max-height: 100px;
+		max-height: 120px;
 	}
 }
 @media only screen and (max-width: 1000px) {
 	.image-quiz{
-		max-height: 70px;
+		max-height: 100px;
+	}
+	.title, .img-block span{
+		font-size: 14px;
+	}
+	.quiz{
+		padding: 10px 10px 90px;
+	}
+	.quiz-list label{
+		padding: 0;
 	}
 }
 @media only screen and (max-width: 600px) {
 	.image-quiz{
-		max-height: 50px;
+		max-height: 70px;
 	}
 }
