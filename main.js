@@ -141,10 +141,12 @@ function checkNumber(){
 
 function checkAnswer(){
 	const checkedRadio = listContainer.querySelector('input[type="radio"]:checked');
-	
+
 	if (!checkedRadio){
-		btn.blur();
+		console.log("No answer selected")
 		return
+	}else{
+		console.log("The answer is selected")
 	}
 
 	const userAnswer = parseInt(checkedRadio.value);
@@ -161,9 +163,10 @@ function checkAnswer(){
 	} else {
 		clearPage();
 		showResults();
+		testResults();
 	}
 }
-
+let results = 0
 function showResults(){
 	const resultsTemplste = 
 				`<h2 class="title">%title%</h2>
@@ -172,14 +175,17 @@ function showResults(){
 				`;
 	let title, message;
 	if (score === questions.length){
+		results = 1
 		title = 'Отлично!';
 		message = 'Вы ответили верно на все вопросы!';
 	} else if ((score*100)/questions.length>=50){
+		results = 2
 		title = 'Хорошо!';
 		message = 'Вы дали более половины правильных ответов!';
 	}else {
+		results = 3
 		title = 'Неплохо!';
-		message = 'Вы дали более половины правильных ответов!';
+		message = 'Вы дали менее половины правильных ответов!';
 	}
 	let result = `Верно ${score} из ${questions.length} вопросов.`
 
@@ -191,4 +197,40 @@ function showResults(){
 	btn.blur();
 	btn. innerText = 'Начать заново';
 	btn.onclick = () => history.go();
+}
+
+function testAnswer(){
+	const checkedRadio = listContainer.querySelector('input[type="radio"]:checked');
+
+	if (!checkedRadio){
+		console.log("The answer is selected")
+		return 
+	}else{
+		console.log("No answer selected")
+		return
+	}
+
+}
+testAnswer();
+function testResults(){
+	if (score===questions.length){
+		if(results === 1){
+			console.log('Results are right')
+		} else(
+			console.log('Results are wrong')
+		)
+	}else if((score*100)/questions.length>=50){
+		if(results === 2){
+			console.log('Results are right')
+		} else(
+			console.log('Results are wrong')
+		)
+	}else{
+		if(results === 3){
+			console.log('Results are right')
+		} else(
+			console.log('Results are wrong')
+		)
+	}
+
 }
