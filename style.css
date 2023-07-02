@@ -174,10 +174,10 @@ body {
 }
 @media only screen and (max-width: 1000px) {
 	.image-quiz{
-		max-height: 100px;
+		max-height: 130px;
 	}
 	.title, .img-block span{
-		font-size: 14px;
+		font-size: 12px;
 	}
 	.quiz{
 		padding: 10px 10px 90px;
