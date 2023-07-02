@@ -172,11 +172,11 @@ body {
 }
 @media only screen and (max-width: 600px) {
 	.image-quiz{
-		max-height: 150px;
+		max-height: 100px;
 	}
 }
 @media only screen and (max-width: 450px) {
 	.image-quiz{
-		max-height: 100px;
+		max-height: 70px;
 	}
 }

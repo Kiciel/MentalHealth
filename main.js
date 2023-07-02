@@ -204,7 +204,7 @@ function testAnswer(){
 
 	if (!checkedRadio){
 		console.log("The answer is selected")
-		return 
+		return
 	}else{
 		console.log("No answer selected")
 		return
