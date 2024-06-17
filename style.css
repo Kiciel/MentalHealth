@@ -311,7 +311,7 @@ justify-content: center;
 }}
 .info_a{
 	white-space: pre-line;
-	width: 1200px;
+	width: 1000px;
 	margin-top: 20px;
 	text-align: left;
 	font-size: 20px;
@@ -322,7 +322,7 @@ justify-content: center;
 	
 }
 .info_a strong{
-	color:#d37a88;
+	color:#161616;
 	vertical-align:text-top;
 	font-family:Montserrat;
 	text-decoration: none;
@@ -331,9 +331,9 @@ justify-content: center;
 .info_a_h{
 	font-size: 30px;
 	font-weight: 500;
-	width: 1200px;
+	width: 1000px;
 	margin-top: 30px;
-	color:#161616;
+	color:#000000;
 	vertical-align:text-top;
 	font-family:Montserrat;
 	text-decoration: none;
