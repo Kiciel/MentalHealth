@@ -177,7 +177,7 @@ function showResults(){
 				<p class="result">%result%</p>
 				`;
 	let title, message;
-	if (score>=4 && score<=10 ){
+	if (score>=0 && score<=10 ){
 		results = 1
 		title = 'Нормальное состояние';
 		message = 'Ваше состояние в пределах нормы.';
@@ -221,7 +221,7 @@ function testAnswer(){
 }
 testAnswer();
 function testResults(){
-	if (score>=4 && score<=10 ){
+	if (score>=0 && score<=10 ){
 		if(results === 1){
 			console.log('Results are right')
 		} else(
