@@ -308,7 +308,7 @@ a{
 		  position: relative;
 
 		  h1 {
-			 font-size: 20px;
+			 font-size: 14px;
 			 font-weight:500;
 		  }
 
@@ -320,7 +320,7 @@ a{
 }}
 .info_a{
 	white-space: pre-line;
-	width: 1000px;
+	width: 700px;
 	margin-top: 20px;
 	text-align: left;
 	font-size: 20px;
@@ -348,7 +348,7 @@ a{
 .info_a_h{
 	font-size: 30px;
 	font-weight: 500;
-	width: 1000px;
+	width:700px;
 	margin-top: 30px;
 	color:#000000;
 	vertical-align:text-top;
@@ -430,6 +430,9 @@ a{
 	}
 }
 @media only screen and (max-width: 1000px) {
+	a, h1, h2, h3, p{
+		font-size: 14px;
+	}
 	.content {
 		flex-direction: column;
 		align-items: center;
@@ -453,7 +456,6 @@ a{
 	}
 	.header_content{
 		width: 300px;
-		
 	}
 	.header_logo{
 		margin-right: 0px;
@@ -462,8 +464,28 @@ a{
 	.quiz{
 		width: 450px;
 	}
+	.info_help{
+		width: 600px;
+	}
+	.info{
+		width: 700px;
+	}
+	.post{
+		width: 200px;
+		height: 290px;
+		font-size: 14px;
+	}
+	.post_content p, .post_content h1{
+		font-size: 14px;
+	}
+	.map{
+		width: 500px;
+	}
+	.main_text{
+		width: 500px;
+	}
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 	.header_content{
 		width: 250px;
 	}
@@ -477,9 +499,28 @@ a{
 		font-size: 14px;
 	}
 	.main_text{
-		width: 270px;
+		width: 300px;
+		font-size: 18px;
 	}
 	.quiz{
 		width: 300px;
+	}
+	.info{
+		width: 300px;
+		flex-direction:column;
+		display: flex;
+		justify-content: center;
+	}
+	.map{
+		width: 300px;
+	}
+	.info_a, .info_a_h{
+		width: 300px;
+	}
+	.info_help{
+		width: 300px;
+		flex-direction:column;
+		display: flex;
+		justify-content: center;
 	}
 }
