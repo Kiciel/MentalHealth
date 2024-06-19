@@ -431,7 +431,7 @@ a{
 }
 @media only screen and (max-width: 1000px) {
 	a, h1, h2, h3, p{
-		font-size: 14px;
+		font-size: 12px;
 	}
 	.content {
 		flex-direction: column;
@@ -463,6 +463,7 @@ a{
 	}
 	.quiz{
 		width: 450px;
+		height: 250px;
 	}
 	.info_help{
 		width: 600px;
@@ -472,17 +473,20 @@ a{
 	}
 	.post{
 		width: 200px;
-		height: 290px;
-		font-size: 14px;
+		height: 280px;
+		font-size: 12px;
 	}
 	.post_content p, .post_content h1{
-		font-size: 14px;
+		font-size: 12px;
 	}
 	.map{
 		width: 500px;
 	}
 	.main_text{
 		width: 500px;
+	}
+	.body_post{
+		height: 40%;
 	}
 }
 @media only screen and (max-width: 700px) {
