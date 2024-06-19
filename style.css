@@ -328,7 +328,15 @@ a{
 	vertical-align:text-top;
 	font-family:Montserrat;
 	text-decoration: none;
+	text-align:justify;
+	margin-bottom: 20px;
 	
+}
+.info_h2{
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
 }
 .info_a strong{
 	color:#161616;
